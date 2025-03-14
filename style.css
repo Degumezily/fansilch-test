@@ -1,0 +1,73 @@
+body{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-family: fantasy;
+    font-weight: 500;
+    text-decoration: underline;
+    color: red;
+    position: absolute;
+    left: 500px;
+}
+h2{
+    font-family: sans-serif;
+    color: red;
+    position: relative;
+    top: 100px;
+    left: 520px;
+}
+h3{
+    font-family: sans-serif;
+    color: forestgreen;
+}
+@media all and (max-width: 1000px){
+    h1{
+        position: absolute;
+        left: 300px;
+    }
+    h2{
+        position: relative;
+        top: 100px;
+        left: 320px;
+    }
+}
+
+@media all and (max-width: 600px){
+    h1{
+        position: absolute;
+        left: 100px;
+    }
+    h2{
+        position: relative;
+        top: 100px;
+        left: 120px;
+    }
+}
+img{
+    position: absolute;
+    left: 400px;
+}
+#jcp{
+    position: absolute;
+    left: 150px;
+    top: 100px
+}
+#nvp{
+    position: absolute;
+    left: 450px;
+    top: 20px
+}
+#k6p{
+    position: absolute;
+    left: 350px;
+    top: 40px
+}
+#tkp{
+    position: absolute;
+    left: 450px;
+    top: 50px
+}
